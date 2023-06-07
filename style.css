@@ -1,0 +1,52 @@
+h1{
+    font-family: "Brush Script MT", Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background: url("imgs/food-wars-wallpaper.png");
+    background-repeat: no-repeat;   
+    background-size: cover;
+}
+
+li{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-header-container{
+    text-align: center;
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(255, 85, 85);
+    border-radius: 3%;
+}
+
+.main-ul{
+    list-style-type: none;
+    font-size: 30px;
+    text-align: center;
+    padding-right:50px;
+}
+
+.description, .ingredients, .steps{
+    height: auto;
+    width: 300px;
+    border-radius: 3%;
+    background-color: rgb(198, 227, 253);
+    font-size: 15px;
+}
+
+
+.steps{
+    width: 800px;
+}
+
+.back{
+    color: white;
+    font-size: 25px;
+}
+
+.steps h3, .description h3, .ingredients h3{
+    text-align: center;
+}
